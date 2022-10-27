@@ -1,0 +1,91 @@
+﻿@using RedArborTest.Commands.CandidatesCommands
+@model UpdateCandidateCommand
+
+<script>
+	function CloseMessageSuccess(){
+		var x = document.getElementById("MessageSucces");
+		x.style.display = "none";
+	}
+	function CloseMessageWarning(){
+		var y = document.getElementById("MessageWarning");
+		y.style.display = "none";
+	}
+	function CloseMessageError(){
+		var z = document.getElementById("MessageError");
+		z.style.display = "none";
+	}
+</script>
+
+<div class="container">
+	@if (TempData["success"] != null)
+	{
+		<div id="MessageSucces"  class="alert alert-success alert-dismissible fade show" role="alert">
+			@TempData["success"]
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="CloseMessageSuccess();" style="float: right;">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	}
+	@if (TempData["warning"] != null)
+	{
+		<div id="MessageWarning" class="alert alert-warning alert-dismissible fade show" role="alert">
+			@TempData["warning"]
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="CloseMessageWarning();" style="float: right;">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	}
+	@if (TempData["error"] != null)
+	{
+		<div id="MessageError" class="alert alert-error alert-dismissible fade show" role="alert" >
+			@TempData["error"]
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="CloseMessageError();" style="float: right;">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	}
+
+	<h1>Editar Candidato</h1>
+
+	<hr/>
+
+	<div class="row">
+		<div class="col-md-4">
+			<form asp-action="Update">
+				<input type="hidden" asp-for="IdCandidate" />
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-group">
+					<label asp-for="Name" class="control-label"></label>
+					<input asp-for="Name" class="form-control" />
+					<span asp-validation-for="Name" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Surname" class="control-label"></label>
+					<input asp-for="Surname" class="form-control" />
+					<span asp-validation-for="Surname" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Birthdate" class="control-label"></label>
+					<input type="date" asp-for="Birthdate" class="form-control" />
+					<span asp-validation-for="Birthdate" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Email" class="control-label"></label>
+					<input asp-for="Email" class="form-control" />
+					<span asp-validation-for="Email" class="text-danger"></span>
+				</div>
+
+				<div class="form-group" style="padding-top: 20px">
+					<input type="submit" value="Guardar" class="btn btn-primary" />
+					<a asp-controller="Candidates" asp-action="Index" class="btn btn-danger">Cancelar</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+@section Scripts{
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

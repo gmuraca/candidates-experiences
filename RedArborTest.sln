@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArborTest", "RedArborTest\RedArborTest.csproj", "{DCD1DBDF-83C0-4295-AFAD-71F034934F58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArborDb", "RedArborDb\RedArborDb.csproj", "{7C03D273-7DD1-482B-917E-46CDA0AA63E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{596A3103-83EC-4CBD-92C0-0555400C004D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6F4021D2-9530-47AB-A76B-9B645EEF00BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{33259D29-54B5-453D-8350-1F99A5D7B4F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArbor.RedArborTest.Domain", "RedArbor.RedArborTest.Domain\RedArbor.RedArborTest.Domain.csproj", "{DDA7BEE5-5B9A-4CD1-9A5C-41D4B97C9218}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{7EC91A55-EEAF-4958-94C8-A85A97EE565B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsRedArbor", "UnitTestsRedArbor\UnitTestsRedArbor.csproj", "{28133477-FA24-43B4-9E7E-3DD61ED677DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCD1DBDF-83C0-4295-AFAD-71F034934F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD1DBDF-83C0-4295-AFAD-71F034934F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD1DBDF-83C0-4295-AFAD-71F034934F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD1DBDF-83C0-4295-AFAD-71F034934F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C03D273-7DD1-482B-917E-46CDA0AA63E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C03D273-7DD1-482B-917E-46CDA0AA63E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C03D273-7DD1-482B-917E-46CDA0AA63E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C03D273-7DD1-482B-917E-46CDA0AA63E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA7BEE5-5B9A-4CD1-9A5C-41D4B97C9218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA7BEE5-5B9A-4CD1-9A5C-41D4B97C9218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA7BEE5-5B9A-4CD1-9A5C-41D4B97C9218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA7BEE5-5B9A-4CD1-9A5C-41D4B97C9218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28133477-FA24-43B4-9E7E-3DD61ED677DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28133477-FA24-43B4-9E7E-3DD61ED677DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28133477-FA24-43B4-9E7E-3DD61ED677DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28133477-FA24-43B4-9E7E-3DD61ED677DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCD1DBDF-83C0-4295-AFAD-71F034934F58} = {6F4021D2-9530-47AB-A76B-9B645EEF00BE}
+		{7C03D273-7DD1-482B-917E-46CDA0AA63E9} = {596A3103-83EC-4CBD-92C0-0555400C004D}
+		{DDA7BEE5-5B9A-4CD1-9A5C-41D4B97C9218} = {33259D29-54B5-453D-8350-1F99A5D7B4F8}
+		{28133477-FA24-43B4-9E7E-3DD61ED677DE} = {7EC91A55-EEAF-4958-94C8-A85A97EE565B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CA9ADA9-2541-4B49-A423-BB710554F64B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,160 @@
+﻿@using RedArbor.RedArborTest.Domain.Entities
+@model List<CandidateExperiences>
+
+<script>
+	function ConfirmDelete(){
+		return(confirm('Seguro desea eliminar el registro del candidato?'));
+	}
+
+	function CloseMessageSuccess(){
+		var x = document.getElementById("MessageSucces");
+		x.style.display = "none";
+	}
+	function CloseMessageWarning(){
+		var y = document.getElementById("MessageWarning");
+		y.style.display = "none";
+	}
+	function CloseMessageError(){
+		var z = document.getElementById("MessageError");
+		z.style.display = "none";
+	}
+</script>
+<div class="container">
+
+	@if (TempData["success"] != null)
+	{
+		<div id="MessageSucces"  class="alert alert-success alert-dismissible fade show" role="alert">
+			@TempData["success"]
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="CloseMessageSuccess();" style="float: right;">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	}
+	@if (TempData["warning"] != null)
+	{
+		<div id="MessageWarning" class="alert alert-warning alert-dismissible fade show" role="alert">
+			@TempData["warning"]
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="CloseMessageWarning();" style="float: right;" >
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	}
+	@if (TempData["error"] != null)
+	{
+		<div id="MessageError" class="alert alert-error alert-dismissible fade show" role="alert" >
+			@TempData["error"]
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="CloseMessageError();" style="float: right;">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	}
+
+	<div class="row" style="text-align: center; padding: 20px">
+		<h1>Candidatos y Experiencias</h1>
+	</div>
+	<div class="row" style="text-align: right; padding: 20px">
+		<div class="col-md-9"></div>
+		<div class="col-md-3">
+			<a asp-controller="CandidateExperiences" asp-action="Create" class="btn btn-primary">Agregar experiencia</a>
+		</div>
+	</div>
+
+	<div class="row">
+		@foreach(var candidate in Model.Select(x => x.Candidate).Distinct())
+		{
+			<div>
+				<div>
+					<div class="row" style="padding: 20px">
+						<h5>Candidato:</h5>
+					</div>
+					<div class="row">
+						<div class="col-md-3" style="background-color: lightgray; font-weight:bold;">
+							Nombre
+						</div>
+						<div class="col-md-3" style="background-color: lightgray; font-weight:bold;">
+							Apellido
+						</div>
+						<div class="col-md-2" style="background-color: lightgray; font-weight:bold;">
+							Fec. Nac.
+						</div>
+						<div class="col-md-4" style="background-color: lightgray; font-weight:bold;">
+							Email
+						</div>
+					</div>
+				</div>
+			<div>
+				<div class="row">
+					<div class="col-md-3">
+						@Html.DisplayFor(x => candidate.Name.Value)
+					</div>
+					<div class="col-md-3">
+						@Html.DisplayFor(x => candidate.Surname.Value)
+					</div>
+					<div class="col-md-2">
+						@Html.DisplayFor(x => candidate.Birthdate.Value)
+					</div>
+					<div class="col-md-4">
+						@Html.DisplayFor(x => candidate.Email.Value)
+					</div>
+				</div>
+			</div>
+			</div>
+
+			<div>
+				<div>
+					<div class="row" style="padding: 20px">
+							<h5>Experiencias:</h5>
+					</div>
+					<div class="row">
+						<div class="col-md-2" style="background-color: lightgray; font-weight:bold;">
+							Compania
+						</div>
+						<div class="col-md-1" style="background-color: lightgray; font-weight:bold;">
+							Empleo
+						</div>
+						<div class="col-md-4" style="background-color: lightgray; font-weight:bold;">
+							Descripcion
+						</div>
+						<div class="col-md-1" style="background-color: lightgray; font-weight:bold;">
+							Salario
+						</div>
+						<div class="col-md-1" style="background-color: lightgray; font-weight:bold;">
+							Inicio
+						</div>
+						<div class="col-md-1" style="background-color: lightgray; font-weight:bold;">
+							Fin
+						</div>
+						<div class="col-md-2" style="background-color: lightgray; font-weight:bold;"></div>
+					</div>
+				</div>
+				<div>
+					@if(Model.Where(x => x.IdCandidate == candidate.IdCandidate) != null && candidate.Experiences.Count > 0)
+					{
+						@foreach(var experience in Model.Where(x => x.IdCandidate == candidate.IdCandidate))
+						{
+							<div class="row" style="padding: 5px">
+								<div class="col-md-2">@Html.DisplayFor(x => experience.Company.Value)</div>
+								<div class="col-md-1">@Html.DisplayFor(x => experience.Job.Value)</div>
+								<div class="col-md-4">@Html.DisplayFor(x => experience.Description.Value)</div>
+								<div class="col-md-1">@Html.DisplayFor(x => experience.Salary.Value)</div>
+								<div class="col-md-1">@Html.DisplayFor(x => experience.BeginDate.Value)</div>
+								<div class="col-md-1">@Html.DisplayFor(x => experience.EndDate.Value)</div>
+								<div class="col-md-2">
+									<a asp-controller="CandidateExperiences" asp-action="Update" asp-route-id="@experience.IdCandidateExperience" class="btn btn-primary">Editar</a>
+									<a asp-controller="CandidateExperiences" asp-action="Delete" asp-route-id="@experience.IdCandidateExperience" class="btn btn-danger" onclick="return(ConfirmDelete())">Eliminar</a>
+								</div>
+							</div>
+						}
+					}			
+				</div>
+			</div>
+			<hr style="width:100%;text-align:center; padding: 2px; color: lightblue;">
+		}
+	</div>
+</div>
+
+@section Scripts{
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

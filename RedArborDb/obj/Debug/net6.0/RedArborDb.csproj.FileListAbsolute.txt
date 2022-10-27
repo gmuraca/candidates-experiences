@@ -1,0 +1,17 @@
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArborDb.deps.json
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArborDb.runtimeconfig.json
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArborDb.dll
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArborDb.pdb
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArborDb.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArborDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArborDb.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArborDb.AssemblyInfo.cs
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArborDb.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArborDb.dll
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\refint\RedArborDb.dll
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArborDb.pdb
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArborDb.genruntimeconfig.cache
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\ref\RedArborDb.dll
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArbor.RedArborTest.Domain.dll
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArbor.RedArborTest.Domain.pdb
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArborDb.csproj.CopyComplete
