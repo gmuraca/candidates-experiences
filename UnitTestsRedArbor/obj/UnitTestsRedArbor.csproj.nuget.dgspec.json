@@ -63,12 +63,12 @@
         }
       }
     },
-    "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArborDb.csproj": {
+    "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArbor.RedArborTest.RedArborDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArborDb.csproj",
-        "projectName": "RedArborDb",
-        "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArborDb.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArbor.RedArborTest.RedArborDb.csproj",
+        "projectName": "RedArbor.RedArborTest.RedArborDb",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArbor.RedArborTest.RedArborDb.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\obj\\",
         "projectStyle": "PackageReference",
@@ -138,12 +138,12 @@
         }
       }
     },
-    "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArborTest.csproj": {
+    "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArbor.RedArborTest.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArborTest.csproj",
-        "projectName": "RedArborTest",
-        "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArborTest.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArbor.RedArborTest.Application.csproj",
+        "projectName": "RedArbor.RedArborTest.Application",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArbor.RedArborTest.Application.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\obj\\",
         "projectStyle": "PackageReference",
@@ -167,8 +167,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArborDb.csproj": {
-                "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArborDb.csproj"
+              "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArbor.RedArborTest.RedArborDb.csproj": {
+                "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArbor.RedArborTest.RedArborDb.csproj"
               }
             }
           }
@@ -245,8 +245,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArborTest.csproj": {
-                "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArborTest.csproj"
+              "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArbor.RedArborTest.Application.csproj": {
+                "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArbor.RedArborTest.Application.csproj"
               }
             }
           }

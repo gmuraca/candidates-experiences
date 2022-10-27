@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RedArborTest\RedArborTest.csproj" />
+    <ProjectReference Include="..\RedArborTest\RedArbor.RedArborTest.Application.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2198,6 +2198,23 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "RedArbor.RedArborTest.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
+          "RedArbor.RedArborTest.RedArborDb": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RedArbor.RedArborTest.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RedArbor.RedArborTest.Application.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "RedArbor.RedArborTest.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2208,7 +2225,7 @@
           "bin/placeholder/RedArbor.RedArborTest.Domain.dll": {}
         }
       },
-      "RedArborDb/1.0.0": {
+      "RedArbor.RedArborTest.RedArborDb/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -2216,28 +2233,11 @@
           "RedArbor.RedArborTest.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/RedArborDb.dll": {}
+          "bin/placeholder/RedArbor.RedArborTest.RedArborDb.dll": {}
         },
         "runtime": {
-          "bin/placeholder/RedArborDb.dll": {}
+          "bin/placeholder/RedArbor.RedArborTest.RedArborDb.dll": {}
         }
-      },
-      "RedArborTest/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
-          "RedArborDb": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/RedArborTest.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/RedArborTest.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -7550,27 +7550,27 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "RedArbor.RedArborTest.Application/1.0.0": {
+      "type": "project",
+      "path": "../RedArborTest/RedArbor.RedArborTest.Application.csproj",
+      "msbuildProject": "../RedArborTest/RedArbor.RedArborTest.Application.csproj"
+    },
     "RedArbor.RedArborTest.Domain/1.0.0": {
       "type": "project",
       "path": "../RedArbor.RedArborTest.Domain/RedArbor.RedArborTest.Domain.csproj",
       "msbuildProject": "../RedArbor.RedArborTest.Domain/RedArbor.RedArborTest.Domain.csproj"
     },
-    "RedArborDb/1.0.0": {
+    "RedArbor.RedArborTest.RedArborDb/1.0.0": {
       "type": "project",
-      "path": "../RedArborDb/RedArborDb.csproj",
-      "msbuildProject": "../RedArborDb/RedArborDb.csproj"
-    },
-    "RedArborTest/1.0.0": {
-      "type": "project",
-      "path": "../RedArborTest/RedArborTest.csproj",
-      "msbuildProject": "../RedArborTest/RedArborTest.csproj"
+      "path": "../RedArborDb/RedArbor.RedArborTest.RedArborDb.csproj",
+      "msbuildProject": "../RedArborDb/RedArbor.RedArborTest.RedArborDb.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.InMemory >= 6.0.10",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
-      "RedArborTest >= 1.0.0",
+      "RedArbor.RedArborTest.Application >= 1.0.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -7584,9 +7584,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\UnitTestsRedArbor\\UnitTestsRedArbor.csproj",
-      "projectName": "UnitTestsRedArbor",
-      "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\UnitTestsRedArbor\\UnitTestsRedArbor.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\UnitTestsRedArbor\\RedArbor.RedArborTest.UnitTests.csproj",
+      "projectName": "RedArbor.RedArborTest.UnitTests",
+      "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\UnitTestsRedArbor\\RedArbor.RedArborTest.UnitTests.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\UnitTestsRedArbor\\obj\\",
       "projectStyle": "PackageReference",
@@ -7610,8 +7610,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArborTest.csproj": {
-              "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArborTest.csproj"
+            "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArbor.RedArborTest.Application.csproj": {
+              "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArbor.RedArborTest.Application.csproj"
             }
           }
         }

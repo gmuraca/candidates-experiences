@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArborTest", "RedArborTest\RedArborTest.csproj", "{DCD1DBDF-83C0-4295-AFAD-71F034934F58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArbor.RedArborTest.Application", "RedArborTest\RedArbor.RedArborTest.Application.csproj", "{DCD1DBDF-83C0-4295-AFAD-71F034934F58}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArborDb", "RedArborDb\RedArborDb.csproj", "{7C03D273-7DD1-482B-917E-46CDA0AA63E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArbor.RedArborTest.RedArborDb", "RedArborDb\RedArbor.RedArborTest.RedArborDb.csproj", "{7C03D273-7DD1-482B-917E-46CDA0AA63E9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{596A3103-83EC-4CBD-92C0-0555400C004D}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArbor.RedArborTest.Domai
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{7EC91A55-EEAF-4958-94C8-A85A97EE565B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsRedArbor", "UnitTestsRedArbor\UnitTestsRedArbor.csproj", "{28133477-FA24-43B4-9E7E-3DD61ED677DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArbor.RedArborTest.UnitTests", "UnitTestsRedArbor\RedArbor.RedArborTest.UnitTests.csproj", "{28133477-FA24-43B4-9E7E-3DD61ED677DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

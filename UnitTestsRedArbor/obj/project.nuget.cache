@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KjV7142Q/vwMWf+jZSxuv1nosg2y0XfUFCPAF+hCPCmFpynBUmNcSB/8wJ4Ew3u5YA2PH5eUnXqcNsbmXd5Hag==",
+  "dgSpecHash": "NzXOwHbaWTR4oP08DSInjX6URUouKHbiT2yi5XmxAG1PfERq08tlk97zE0WENV6TojtTzZx/5I9tty7z91NANQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\UnitTestsRedArbor\\UnitTestsRedArbor.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\UnitTestsRedArbor\\RedArbor.RedArborTest.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

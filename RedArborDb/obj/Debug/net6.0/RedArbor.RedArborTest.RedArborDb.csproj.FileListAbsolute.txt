@@ -1,0 +1,17 @@
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.deps.json
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.runtimeconfig.json
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.dll
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.pdb
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArbor.RedArborTest.Domain.dll
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\bin\Debug\net6.0\RedArbor.RedArborTest.Domain.pdb
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.AssemblyInfo.cs
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.csproj.CopyComplete
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.dll
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\refint\RedArbor.RedArborTest.RedArborDb.dll
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.pdb
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\RedArbor.RedArborTest.RedArborDb.genruntimeconfig.cache
+C:\Users\gabri\source\repos\RedArborTest\RedArborDb\obj\Debug\net6.0\ref\RedArbor.RedArborTest.RedArborDb.dll

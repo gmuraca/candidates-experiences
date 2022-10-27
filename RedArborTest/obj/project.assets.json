@@ -645,7 +645,7 @@
           "bin/placeholder/RedArbor.RedArborTest.Domain.dll": {}
         }
       },
-      "RedArborDb/1.0.0": {
+      "RedArbor.RedArborTest.RedArborDb/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -653,10 +653,10 @@
           "RedArbor.RedArborTest.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/RedArborDb.dll": {}
+          "bin/placeholder/RedArbor.RedArborTest.RedArborDb.dll": {}
         },
         "runtime": {
-          "bin/placeholder/RedArborDb.dll": {}
+          "bin/placeholder/RedArbor.RedArborTest.RedArborDb.dll": {}
         }
       }
     }
@@ -1885,17 +1885,17 @@
       "path": "../RedArbor.RedArborTest.Domain/RedArbor.RedArborTest.Domain.csproj",
       "msbuildProject": "../RedArbor.RedArborTest.Domain/RedArbor.RedArborTest.Domain.csproj"
     },
-    "RedArborDb/1.0.0": {
+    "RedArbor.RedArborTest.RedArborDb/1.0.0": {
       "type": "project",
-      "path": "../RedArborDb/RedArborDb.csproj",
-      "msbuildProject": "../RedArborDb/RedArborDb.csproj"
+      "path": "../RedArborDb/RedArbor.RedArborTest.RedArborDb.csproj",
+      "msbuildProject": "../RedArborDb/RedArbor.RedArborTest.RedArborDb.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
-      "RedArborDb >= 1.0.0"
+      "RedArbor.RedArborTest.RedArborDb >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1906,9 +1906,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArborTest.csproj",
-      "projectName": "RedArborTest",
-      "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArborTest.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArbor.RedArborTest.Application.csproj",
+      "projectName": "RedArbor.RedArborTest.Application",
+      "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArbor.RedArborTest.Application.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\obj\\",
       "projectStyle": "PackageReference",
@@ -1932,8 +1932,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArborDb.csproj": {
-              "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArborDb.csproj"
+            "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArbor.RedArborTest.RedArborDb.csproj": {
+              "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArbor.RedArborTest.RedArborDb.csproj"
             }
           }
         }

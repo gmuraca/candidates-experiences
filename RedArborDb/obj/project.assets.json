@@ -1887,9 +1887,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArborDb.csproj",
-      "projectName": "RedArborDb",
-      "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArborDb.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArbor.RedArborTest.RedArborDb.csproj",
+      "projectName": "RedArbor.RedArborTest.RedArborDb",
+      "projectPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\RedArbor.RedArborTest.RedArborDb.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborDb\\obj\\",
       "projectStyle": "PackageReference",

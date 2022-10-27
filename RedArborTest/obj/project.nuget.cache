@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UD5SA0ABKc31M8MbYIY8viFRHcIL0eP+UJVILl8EgJps6rYPg9nGzao7IlF27N4xsRuChRShqjXnOeSHEGJ26Q==",
+  "dgSpecHash": "fi6AVVpyWJzcpBt12FsLVugcGePGSawkcnoqKw0BhNYO5y8hrmVJHr75xJ6xgjGk54NYQ8iaIITynvQcTJf2bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArborTest.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\RedArborTest\\RedArborTest\\RedArbor.RedArborTest.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
